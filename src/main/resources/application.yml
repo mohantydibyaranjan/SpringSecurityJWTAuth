@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: SpringBootJWT
+
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: System
+    password: roshan
+    driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9089
